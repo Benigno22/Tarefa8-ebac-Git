@@ -1,0 +1,10 @@
+fig = plt.figure()
+ax1 = fig.add_subplot(2,2,1) - estrtura com 2 linhas, duas colunas e posicao 1
+plt.close("all")-- fecha todos os graficos
+plt.plot(data, 'k--', label='Default')
+ax.set_title("Titulo do grafico")
+ax.set_xlabel('Periodo')
+pt.savefig('figpath.png')
+
+df.plot.bar() - plotar em forma de barra
+
